@@ -1,0 +1,154 @@
+.header {
+	display: inherit;
+}
+.float_right {
+	float: right;
+}
+.text_left {
+	text-align: left;
+}
+.banner-slider .slider-item-wrap {
+	width: 60%;
+}
+.logout-btn {
+	border:1px solid #fff;
+}
+.cstm-btn-ornament {
+	background-color: transparent!important;
+	border: 1px solid #fff;
+	top: 2px!important;
+}
+.cstm-btn-ornament .arrow-icon {
+	top: 6px!important;
+	left: 8px!important;
+	width: 5px;
+	height: 7px;
+}
+.post-preview-title {
+	text-transform: unset!important;
+}
+.text-left {
+	text-align: left!important;
+}
+.cstm-width-50 {
+	width: 50%;
+}
+.cstm-width-60 {
+	width: 60%;
+}
+.cstm-width-70 {
+	width: 70%;
+}
+.cstm-width-80 {
+	width: 80%;
+}
+.forum-category-wrap {
+	padding: 40px 0px!important;
+}
+.posts_header_text {
+	padding: 10px 40px;
+	border-left: 8px solid;
+	margin: 40px 0px;
+}
+.cstm-no-grid {
+	display: unset;
+}
+.icon-cstm-width {
+	width: 12%;
+	padding-right: 20px;
+}
+.cstm-scroller-pos {
+	left: 820px!important;
+}
+.forum-user-list {
+	float: right;
+}
+.btn-1-cstm {
+	padding: 15px 30px;
+	background-color: gray;
+	border-radius: 30px;
+	color: white;
+	width: 70%;
+}
+.cstm_svg_btn-1 {
+	fill: #fff;
+	right: 0;
+}
+.fnt-sze-14 {
+	font-size: 14px;
+}
+.section-title-wrap .section-title-separator {
+	height: unset;
+}
+.section-title-wrap .section-title-separator:before {
+	height: 5px;	
+}
+button.light-gray {
+	background-color: #9a9a9a;
+}
+.cstm_fit_content {
+	width: fit-content;
+}
+.mgn_left-40 {
+	margin-left: 30%;
+}
+
+.section-title-wrap.light-gray .section-title-separator:before {
+	background-color: #9a9a9a;
+}
+.mgn_top_10pc {
+	margin-top: 10%;
+}
+.cstm-col-1 {
+	grid-template-columns: 700px;
+}
+.forum-category-wrap {
+  width: unset;
+  padding: 40px 0 40px 100px;
+  position: relative;
+}
+
+.table-row-item .table-text {
+	text-align: unset;
+}
+.bread-crumb-home {
+	color: white;
+	font-weight: 800;
+}
+.bread-crumb-home:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: white;
+	font-weight: 800;
+}
+.post-preview.landscape.big {
+	height: 320px;
+}
+.promo-banner {
+	margin-bottom: 10%;
+}
+.live-news-widget .live-news-widget-title-wrap {
+	left: -15px;
+}
+
+.pad-tp_btm_post {
+	padding: 30px 0px;
+}
+
+.pad-tp_btm {
+	padding: 15px 0px;
+	font-size: 3.5em!important;
+}
+.cstm-bg-yellow {
+	background-color: orange;
+}
+.no-border {
+	border-bottom: unset!important;
+	border:unset;
+}
+.cstm-width-700 {
+	max-width: 700px;
+}
+.cstm-post-img-width {
+	width: 600px!important;
+}
