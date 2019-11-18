@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- style -->
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/tables.css">  
   <link rel="stylesheet" href="css/custom_css.css">
   <!-- favicon -->
   <link rel="icon" href="img/favicon.ico">
@@ -4474,379 +4475,116 @@
 
       <!-- LAYOUT ITEM 1-1-1 -->
       <div class="layout-item-1 padded">
-        <!-- TABLE -->
-          <div class="table">
-            <!-- TABLE ROW HEADER -->
-            <div class="table-row-header">
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">TIME</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
+          <!-- Responsive table starts here -->
+          <!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+          <div class="table-responsive-vertical grid3-1col">
+          <!-- Table starts here -->
+          <table id="table" class="table no-brdr-space table-hover table-mc-light-blue">
+              <thead>
+                <tr class="capitalize">
+                  <th class="calendar-titles">Time</th>
+                  <th class="calendar-titles">Currency</th>
+                  <th class="calendar-titles">Event</th>
+                  <th class="calendar-titles">Actual</th>
+                  <th class="calendar-titles">Forecast</th>
+                  <th class="calendar-titles">Previous</th>
+                </tr>
+                <tr>
+                  <th colspan="6" scope="col-group">Upcoming Economic Key Events</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
 
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">CURRENCY</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
+                <thead>
+                  <tr>
+                    <th colspan="6" scope="col-group">Recently Released Economic Key Events</th>
+                  </tr>
+                </thead>
 
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">EVENT</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
-
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">ACTUAL</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
-
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">FORECAST</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
-
-              <!-- TABLE ROW HEADER ITEM -->
-              <div class="table-row-header-item left">
-                <p class="table-row-header-title">PREVIOUS</p>
-              </div>
-              <!-- /TABLE ROW HEADER ITEM -->
-              
-            </div>
-            <!-- /TABLE ROW HEADER -->
-
-            <!-- TABLE ROWS -->
-            <div class="table-rows no-color">
-              <!-- TABLE ROW -->
-              <div class="table-row large">
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item left">
-                  <!-- FORUM CATEGORY WRAP -->
-                  <div class="forum-category-wrap cstm-ctgry-wrp">
-                    <!-- FORUM POST TIMESTAMP -->
-                      <p class="forum-post-timestamp">29 Min</p>
-                      <!-- /FORUM POST TIMESTAMP -->
-                  </div>
-                  <!-- /FORUM CATEGORY WRAP -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item left">
-                  <p class="table-text bold light"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light left">Lorem ipsum this is just placehoder text</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link left">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link left">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link left">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-              </div>
-              <!-- /TABLE ROW -->
-
-              <!-- TABLE ROW -->
-              <div class="table-row large">
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM CATEGORY WRAP -->
-                  <div class="forum-category-wrap cstm-ctgry-wrp">
-                    <!-- FORUM POST TIMESTAMP -->
-                      <p class="forum-post-timestamp left">29 Min</p>
-                      <!-- /FORUM POST TIMESTAMP -->
-                  </div>
-                  <!-- /FORUM CATEGORY WRAP -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light left"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light left">Lorem ipsum this is just placehoder text</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-              </div>
-              <!-- /TABLE ROW -->
-
-              <!-- TABLE ROW -->
-              <div class="table-row large">
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM CATEGORY WRAP -->
-                  <div class="forum-category-wrap cstm-ctgry-wrp">
-                    <!-- FORUM POST TIMESTAMP -->
-                      <p class="forum-post-timestamp">29 Min</p>
-                      <!-- /FORUM POST TIMESTAMP -->
-                  </div>
-                  <!-- /FORUM CATEGORY WRAP -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light">Lorem ipsum this is just placehoder text</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-              </div>
-              <!-- /TABLE ROW -->
-
-              <!-- TABLE ROW -->
-              <div class="table-row large">
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM CATEGORY WRAP -->
-                  <div class="forum-category-wrap">
-                    <!-- FORUM POST TIMESTAMP -->
-                      <p class="forum-post-timestamp">29 Min</p>
-                      <!-- /FORUM POST TIMESTAMP -->
-                  </div>
-                  <!-- /FORUM CATEGORY WRAP -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <p class="table-text bold light">Lorem ipsum this is just placehoder text</p>
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-                <!-- TABLE ROW ITEM -->
-                <div class="table-row-item">
-                  <!-- FORUM POST LINKS -->
-                  <div class="forum-post-links">
-                    <!-- FORUM POST LINK WRAP -->
-                    <div class="forum-post-link-wrap">
-                      <!-- FORUM POST LINK -->
-                      <a href="topic.html" class="forum-post-link">+0.3%</a>
-                      <!-- /FORUM POST LINK -->
-                    </div>
-                    <!-- /FORUM POST LINK WRAP -->
-
-                  </div>
-                  <!-- /FORUM POST LINKS -->
-                </div>
-                <!-- /TABLE ROW ITEM -->
-
-              </div>
-              <!-- /TABLE ROW -->
-              
-            </div>
-            <!-- /TABLE ROWS -->
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"> <img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                <tr>
+                  <td class="calendar-time" data-title="Time">25 Min</td>
+                  <td class="calendar-currency text-center" data-title="Currency"><img class="widget-option-img" src="img/flags/flag-us.png" alt="flag-us"> USD</td>
+                  <td class="calendar-event cstm-width-50" data-title="Event">
+                    An important announcement from an important person in the US government
+                  </td>
+                  <td class="calendar-actual text-center" data-title="Actual">+0.3%</td>
+                  <td class="calendar-forecast text-center" data-title="Forecast">+0.3%</td>
+                  <td class="calendar-previous text-center" data-title="Previous">+0.3%</td>
+                </tr>
+                
+              </tbody>
+            </table>
           </div>
-          <!-- /TABLE -->
       </div>
       <!-- /LAYOUT ITEM 1-1-1 -->
 
